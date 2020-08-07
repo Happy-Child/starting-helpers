@@ -1,0 +1,5 @@
+@import "../abstracts/mixins/font-face";
+
+@include font-face("Some-Regular", "~@/assets/fonts/Some/Some-Regular")
+@include font-face("Some-Medium", "~@/assets/fonts/Some/Some-Medium")
+@include font-face("Some-Bold", "~@/assets/fonts/Some/Some-Bold")
